@@ -26,7 +26,7 @@ double GetFee(double f, int age)
 	}
 	else if (14 <= age && age <= 19)
 	{
-		return fee = f * 0.75;
+		return fee = f * 0.25;
 	}
 	else if (age >= 20)
 	{
